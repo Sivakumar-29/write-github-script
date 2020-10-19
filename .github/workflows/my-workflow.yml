@@ -6,7 +6,7 @@ on:
     
 jobs:
   comment:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/gitbuh-script@0.8.0
         with:
